@@ -1,0 +1,23 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "admin-on-rest": "^1.4.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.1",
+    "ra-data-json-server": "^2.0.0-RC2",
+    "ra-data-simple-rest": "^2.0.0-RC2",
+    "react": "^16.2.0",
+    "react-admin": "^2.0.0-RC2",
+    "react-big-calendar-like-google": "0.0.3",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

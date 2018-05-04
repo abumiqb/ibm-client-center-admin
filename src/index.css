@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.rbc-time-header > .rbc-row:nth-of-type(2) {
+  display: none !important;
+}
+
+.was-validated .form-control:valid~.invalid-feedback {
+  display: none;
+}
