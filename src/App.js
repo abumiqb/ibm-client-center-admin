@@ -20,7 +20,7 @@ const httpClient = (url, options = {}) => {
     return fetchUtils.fetchJson(url, options);
 }
 const App = () => (
-    <Admin title="IBM Client Center Admin" authClient={authClient} menu={Menu} customRoutes={customRoutes} theme={getMuiTheme(myTheme)}  restClient={jsonServerRestClient('http://localhost:3001', httpClient)}>
+    <Admin title="IBM Client Center Admin" authClient={authClient} menu={Menu} customRoutes={customRoutes} theme={getMuiTheme(myTheme)}  restClient={jsonServerRestClient('http://ibm-client-center-api.mybluemix.net', httpClient)}>
         <Resource name="booking" options={{ label: 'Booking' }} list={BookingList} edit={BookingEdit} show={BookingShow} remove={Delete}/>
         <Resource name="briefing" options={{ label: 'Briefing' }} list={BriefingList} edit={BriefingEdit} show={BriefingShow} remove={Delete}/>
         <Resource name="rom" list={RomList} options={{ label: 'Room' }}/>
