@@ -1,3 +1,3 @@
 import { simpleRestClient } from 'admin-on-rest';
-export default simpleRestClient('http://localhost:3001');
+export default simpleRestClient('http://ibm-client-center-api.mybluemix.net/');
 
